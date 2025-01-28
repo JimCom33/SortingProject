@@ -3,6 +3,9 @@
 #include "ofMain.h"
 
 class ofApp : public ofBaseApp{
+	private:
+		vector<int> circles;
+
 
 	public:
 		void setup();
